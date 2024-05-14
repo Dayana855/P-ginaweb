@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>FORMULARIO DE SI</title>
+<style>
+      body  {
+           background-color: #EBDEF0;
+      }      
+</style>  
+</head>
+<body>
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<li><a href="index.html">Sistemas de información</a></li>
+<li><a href="Clasificación.html">Clasificación de los sistemas de información</a></li>
+<li><a href="Formulariosi.html">Encuesta</a></li>
+<li><a href="Ejemplos.html">Ejemplos</a></li>
+</ul>
+
+<div class="frmTitle">
+<h1 class="frm">ENCUESTA SOBRE EXPERIENCIA CON LOS SI</h1>
+</div>
+<hr>
+
+<form>
+
+
+<fieldset>
+<legend> Información personal</legend>
+<p><label>Nombres: <input class="info"></label>&nbsp;&nbsp;&nbsp;<label>Apellidos: <input class="info"></label></p>
+<p><label>Telefono: <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;
+<label>Correo electronico: <input class="info" type=email></label></p>
+<p><label>Celular:  <input class="info" type="tel"></label></label>&nbsp;&nbsp;&nbsp;
+<label>Dirección:  <input class="info" type="direccion"></label></p>
+
+</fieldset>
+
+<fieldset>
+<legend> ¿Utilizas actualmente algun sistema de información en tu trabajo o estudios?</legend>
+<p><label> <input type=radio name=size> Si </label></p>
+<p><label> <input type=radio name=size> No </label></p>
+<label>¿Cual?:  <input class="info" type="¿Cual?"></label></p>
+
+</fieldset>
+<fieldset>
+<legend> ¿Cómo describirías tu experiencia general al utilizar sistemas de información en tu entorno? </legend>
+<p><label> <input type=checkbox> Muy positiva</label></p>
+<p><label> <input type=checkbox> Neutral </label></p>
+<p><label> <input type=checkbox> Negativa </label></p>
+
+</fieldset>
+<fieldset>
+<legend> ¿Con qué frecuencia experimentas problemas técnicos al usar los sistemas de información? </legend>
+<p><label> <input type=checkbox> Rara vez</label></p>
+<p><label> <input type=checkbox> Frecuentemente</label></p>
+<p><label> <input type=checkbox> Ocasionalmente </label></p>
+
+<fieldset>
+<legend> ¿Qué sugerencias tendrías para mejorar la experiencia general con respecto al uso de los sistemas de información en tu entorno?</legend>
+<label>Respuesta:  <input class="info" type="Respuesta"></label></p>
+
+
+</fieldset>
+<p><label>Día de la encuesta: <input type=date min="1" max="31" step="01/01/2024"></label>&nbsp;Hora de la encuesta:<input type=time min="11:00" max="21:00" step="900"></label></p>
+
+<br>
+<style>
+  .center {
+    text-align: center;
+  }
+  .button {
+    background-color: #DF12F3;
+    border: groove;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+</style>
+
+<audio controls>
+  <source src="vid/Gracias.mp3" type="audio/mp3">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+<div class="center">
+<button class="button">Limpiar</button>
+<div class="center"><button class="button button1" onClick="alert('Su encuesta fue enviada');">Enviar encuesta</button></div>
+</div>
+</form>
+
+</body>
+</html>
+
